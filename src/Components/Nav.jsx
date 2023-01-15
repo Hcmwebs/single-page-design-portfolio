@@ -1,8 +1,12 @@
 import React from 'react'
+import {Logo,Button} from './index'
 
 const Nav = () => {
   return (
-    <div>Nav goes here</div>
+    <div>
+      <Logo />
+      <Button />
+    </div>
   )
 }
 
