@@ -1,15 +1,14 @@
-
 import React from 'react'
-import { Nav,Hero } from './Components'
+import { Header, MainContent, Footer } from './Components'
 
 const App = () => {
-  return (
-    <div>
-      <Nav/>
-      <Hero />
-
-    </div>
-  )
+	return (
+		<div>
+			<Header />
+			<MainContent />
+			<Footer />
+		</div>
+	)
 }
 
 export default App
