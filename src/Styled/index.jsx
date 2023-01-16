@@ -1,3 +1,3 @@
-import GlobalStyles from './Globaltyles'
+import GlobalStyles from './GlobalStyles'
 
 export { GlobalStyles }
