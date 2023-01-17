@@ -1,28 +1,23 @@
 import styled from 'styled-components'
 
 const StyledButton = styled.button`
-	border-radius: 8px;
-	border: 1px solid transparent;
-	padding: 0.6em 1.2em;
-	font-size: 1em;
-	font-weight: 500;
+	border-radius: 28px;
+	border: none;
+	padding: 0.4rem 1.6rem;
+	font-size: 1.125rem;
+	font-weight: var(--bold);
 	font-family: inherit;
-	background-color: #1a1a1a;
+	color: var(--lightCream);
+	background-color: ${({ primary }) =>
+		primary ? 'var(--black)' : 'var(--lightRed)'};
 	cursor: pointer;
-	transition: border-color 0.25s;
+	transition: var(--transition-2);
 
 	&:hover {
-		border-color: #646cff;
-	}
-	&:focus,
-	&:focus-visible {
-		outline: 4px auto -webkit-focus-ring-color;
-	}
-
-	@media (prefers-color-scheme: light) {
-		button {
-			background-color: #f9f9f9;
-		}
+		background-color: ${({ primary }) =>
+			primary ? 'var(--galacticBlue)' : 'var(--summerYellow)'};
+		transform: scale(0.95);
 	}
 `
+
 export default StyledButton
