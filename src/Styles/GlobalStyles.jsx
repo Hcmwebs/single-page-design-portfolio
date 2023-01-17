@@ -12,7 +12,7 @@ const GlobalStyles = createGlobalStyle`
 --pink:rgba(243, 158,158,1.0);
 --lightRed:rgba(235,117,101,1.0)
 --cyan:rgba(97,196,183,1.0)
---darkPurple:rgba(85,32,73,1.0)
+--darkPurple:rgba(85,32,73,1.0);
 --maxWidth:1440px;
 --fixedWidth:600px;
 --transition-1: all 0.3s ease-in-out;

@@ -4,12 +4,12 @@ import { Nav, Hero } from './index'
 
 const Header = () => {
 	return (
-		<StyledContainer>
-			<StyledHeader>
+		<StyledHeader>
+			<StyledContainer>
 				<Nav />
 				<Hero />
-			</StyledHeader>
-		</StyledContainer>
+			</StyledContainer>
+		</StyledHeader>
 	)
 }
 
