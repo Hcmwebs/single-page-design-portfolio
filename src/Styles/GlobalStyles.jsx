@@ -3,6 +3,7 @@ import { createGlobalStyle } from 'styled-components'
 const GlobalStyles = createGlobalStyle`
 
 :root{
+--white: rgba(255,255,255,1.0)
 --black:rgba(3,3,3,1.0);
 --mediumBrown:rgba(122,116,110,1.0);
 --lightCream: rgba(255, 247, 240, 1.0)
@@ -35,12 +36,11 @@ const GlobalStyles = createGlobalStyle`
 
 html {
   font-size: 100%; /*16px*/
-  color-scheme:dark light;
   height: 100%;
 }
 
 body {
-  background:var(--lightCream);
+  background-color:var(--lightCream);
   font-family: 'Plus Jakarta Sans', sans-serif;
   font-weight: var(--medium);
   line-height: 1.75;
@@ -78,50 +78,7 @@ small, .text_small {font-size: 0.8rem;}
 img, picture, svg {
   display: block;
   max-width:100%;
-  object-fit: cover;
-}
-
-.container{
-  width:min(90vw, var(--maxWidth));
-  margin:0 auto;
-  display: grid;
-  place-items: center;
-  @media (min-width: var(--maxWidth)){
-    width:min(95vw, var(--maxWidth));
-  }
-}
-
-
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+  object-fit: cover
 }
 
 
