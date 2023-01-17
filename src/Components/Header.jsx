@@ -1,12 +1,15 @@
 import React from 'react'
+import { StyledContainer, StyledHeader } from '../Styles'
 import { Nav, Hero } from './index'
 
 const Header = () => {
 	return (
-		<div>
-			<Nav />
-			<Hero />
-		</div>
+		<StyledContainer>
+			<StyledHeader>
+				<Nav />
+				<Hero />
+			</StyledHeader>
+		</StyledContainer>
 	)
 }
 
