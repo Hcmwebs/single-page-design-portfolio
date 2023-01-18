@@ -4,6 +4,7 @@ import StyledContainer from './Container.styled'
 import StyledHeader from './Header.styled'
 import StyledNav from './Nav.styled'
 import StyledLogo from './Logo.styled'
+import StyledHero from './Hero.Styled'
 
 export {
 	GlobalStyles,
@@ -12,4 +13,5 @@ export {
 	StyledHeader,
 	StyledNav,
 	StyledLogo,
+	StyledHero,
 }

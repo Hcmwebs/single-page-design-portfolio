@@ -1,9 +1,16 @@
 import React from 'react'
-import styled from 'styled-components'
+import { StyledHero } from '../Styles'
 
 const Hero = () => {
-	return <div>Hero goes here</div>
+	return (
+		<StyledHero>
+			<h1>Design solutions made easy</h1>
+			<p>
+				With over ten years of experience in various design disciplines, I’m
+				your one-stop shop for your design needs.
+			</p>
+		</StyledHero>
+	)
 }
-export const StyledHeader = styled.div``
 
 export default Hero
