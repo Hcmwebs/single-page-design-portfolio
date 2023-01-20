@@ -5,6 +5,7 @@ import StyledHeader from './Header.styled'
 import StyledNav from './Nav.styled'
 import StyledLogo from './Logo.styled'
 import StyledHero from './Hero.Styled'
+import StyledMain from './Main.styled'
 
 export {
 	GlobalStyles,
@@ -14,4 +15,5 @@ export {
 	StyledNav,
 	StyledLogo,
 	StyledHero,
+	StyledMain
 }
