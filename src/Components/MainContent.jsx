@@ -13,7 +13,7 @@ const MainContent = () => {
 						<div className='card'>
 							<div className='card-flex'>
 								<div className='card1 card2'>2</div>
-								<div className='card1 card2' >3</div>
+								<div className='card1 card2'>3</div>
 							</div>
 							<div className='card1 three'>4</div>
 						</div>

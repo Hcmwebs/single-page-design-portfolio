@@ -33,8 +33,6 @@ const StyledMain = styled.main`
 			@media (min-width: 768px) {
 				&.card-flex {
 					width: 660px;
-					height: 150px;
-
 					display: flex;
 					justify-content: space-between;
 				}
@@ -45,24 +43,18 @@ const StyledMain = styled.main`
 				height: 100%;
 				display: grid;
 				place-items: center;
-				gap: 1rem;
-				border-radius: 15px;
 				background-color: aliceblue;
 
-				&.card2 {
-					width: 150px;
-					height: 180px;
-					background-color: var(--mediumBrown);
-					color:var(--lightCream)
-				}
 
-			}
-			.card-flex {
-				width: 100%;
+				&.card-flex {
 					display: flex;
-					justify-content: space-between;
-					gap:1rem;
 				}
+			}
+			&.card2 {
+				width: 100px;
+				height: 100px;
+				background-color: var(mediumBrown);
+			}
 		}
 		&.three {
 			background-color: var(--summerYellow);
