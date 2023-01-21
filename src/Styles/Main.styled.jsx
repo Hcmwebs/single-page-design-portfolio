@@ -15,15 +15,15 @@ const StyledMain = styled.main`
 		outline: 2px solid lightcoral;
 
 		.cards {
-			width: min(100%, 100%);
+			width: 100%;
 			display: grid;
 			place-items: center;
 			grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 			gap: 10px;
 		}
 		.card {
-			width: min(100%, 100%);
-			min-height: 300px;
+			width: 100%;
+			min-height: 200px;
 			margin: 0 auto;
 			outline: 2px solid lightgreen;
 			border-radius: 20px;
@@ -38,14 +38,7 @@ const StyledMain = styled.main`
 				}
 			}
 
-			.card1 {
-				width: 100%;
-				height: 100%;
-				display: grid;
-				place-items: center;
-				background-color: aliceblue;
-
-
+			
 				&.card-flex {
 					display: flex;
 				}

@@ -1,5 +1,7 @@
 import React from 'react'
-import { StyledContainer, StyledMain } from '../Styles'
+import { StyledContainer, StyledMain, StyledCard } from '../Styles'
+
+import { Card } from './index'
 
 const MainContent = () => {
 	return (
