@@ -17,9 +17,9 @@ const StyledMain = styled.main`
 		&.services {
 			display: grid;
 			place-items: center;
-			grid-template-columns:repeat(auto-fill, minmax(343px, 1fr));
+			grid-template-columns:repeat(auto-fill, minmax(330px, 1fr));
 			gap: 1.5rem;
-			
+
 		}
 	}
 `
