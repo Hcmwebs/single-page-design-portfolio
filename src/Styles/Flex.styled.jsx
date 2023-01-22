@@ -6,11 +6,6 @@ const StyledFlex = styled.div`
 	justify-content: space-between;
 	align-items: center;
 	gap: 1.5rem;
-
-	&.mainCard3 {
-		width: ;
-		flex-direction: column;
-	}
 `
 
 export default StyledFlex
