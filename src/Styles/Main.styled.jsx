@@ -8,58 +8,18 @@ const StyledMain = styled.main`
 
 	section {
 		width: 100%;
-		padding: 2.5rem 1rem;
+		padding: 2.5rem 0;
 		min-height: 50vh;
 		display: grid;
 		place-items: center;
 		outline: 2px solid lightcoral;
 
-		.cards {
-			width: 100%;
+		&.services {
 			display: grid;
 			place-items: center;
-			grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-			gap: 10px;
-		}
-		.card {
-			width: 100%;
-			min-height: 200px;
-			margin: 0 auto;
-			outline: 2px solid lightgreen;
-			border-radius: 20px;
-			display: grid;
-			place-items: center;
-			gap: 1rem;
-			@media (min-width: 768px) {
-				&.card-flex {
-					width: 660px;
-					display: flex;
-					justify-content: space-between;
-				}
-			}
-
+			grid-template-columns:repeat(auto-fill, minmax(343px, 1fr));
+			gap: 1.5rem;
 			
-				&.card-flex {
-					display: flex;
-				}
-			}
-			&.card2 {
-				width: 100px;
-				height: 100px;
-				background-color: var(mediumBrown);
-			}
-		}
-		&.three {
-			background-color: var(--summerYellow);
-		}
-		&.four {
-			background-color: aliceblue;
-		}
-		&.five {
-			background-color: aliceblue;
-		}
-		&.six {
-			background-color: aliceblue;
 		}
 	}
 `
