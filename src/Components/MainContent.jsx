@@ -1,5 +1,5 @@
 import React from 'react'
-import { StyledContainer, StyledMain, StyledCard } from '../Styles'
+import { StyledContainer, StyledMain, StyledCard, StyledFlex } from '../Styles'
 
 import { Card } from './index'
 
@@ -7,21 +7,23 @@ const MainContent = () => {
 	return (
 		<StyledContainer>
 			<StyledMain>
-				<section>
-					<div className='cards'>
-					<Card className/>
-						{/* <div className='card'>
-							<div className='card1 card-flex'>
-								<div className='card1 card2'>2</div>
-								<div className='card1 card2'>3</div>
-							</div>
-							<div className='card1'>4</div>
-						</div>
-						<div className='card card-full card-flex'>
-							<div className='card1'>5</div>
-							<div className='card1'>6</div>
-						</div> */}
-					</div>
+				<section className='services'>
+					<StyledCard className='mainCard'>
+						<div className='card card1'>1</div>
+					</StyledCard>
+
+					<StyledCard className='mainCard'>
+						<StyledFlex>
+							<div className='card card2'>2</div>
+							<div className='card card3'>3</div>
+						</StyledFlex>
+						<div className='card card4'>4</div>
+					</StyledCard>
+
+					<StyledCard className='mainCard mainCard3'>
+						<div className='card card5'>5</div>
+						<div className='card card6'>6</div>
+					</StyledCard>
 				</section>
 			</StyledMain>
 		</StyledContainer>
