@@ -6,7 +6,7 @@ import StyledNav from './Nav.styled'
 import StyledLogo from './Logo.styled'
 import StyledHero from './Hero.Styled'
 import StyledMain from './Main.styled'
-import StyledCard from './Card.styled'
+import StyledMainCard from './Card.styled'
 import StyledFlex from './Flex.styled'
 
 export {
@@ -18,6 +18,6 @@ export {
 	StyledLogo,
 	StyledHero,
 	StyledMain,
-	StyledCard,
+	StyledMainCard,
 	StyledFlex,
 }

@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-const StyledCard = styled.div`
+const StyledMainCard = styled.div`
 	&.mainCard {
 		min-height: 364px;
 		margin: 0 auto;
@@ -97,4 +97,4 @@ const StyledCard = styled.div`
 		}
 	}
 `
-export default StyledCard
+export default StyledMainCard
