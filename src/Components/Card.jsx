@@ -1,13 +1,13 @@
 import React from 'react'
 import { StyledCard } from '../Styles'
 
-const Card = () => {
-	return <StyledCard>
-		<div className="card card2">2</div>
-		<div className="card card2">3</div>
-		<div className="card card1">4</div>
-
-	</StyledCard>
+const Card = ({ id, img, className, title }) => {
+	return (
+		<StyledCard className ={className}>
+			<img src={img} alt={title} />
+			<h3>{title}</h3>
+		</StyledCard>
+	)
 }
 
 export default Card
