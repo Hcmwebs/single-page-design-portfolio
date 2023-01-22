@@ -1,5 +1,12 @@
 import React from 'react'
-import { StyledContainer, StyledMain, StyledCard, StyledFlex } from '../Styles'
+import { mainCard1, mainCard2, mainCard3,mainCard4 } from '../data/Data'
+import {
+	StyledContainer,
+	StyledMain,
+	StyledMainCard,
+	StyledCard,
+	StyledFlex,
+} from '../Styles'
 
 import { Card } from './index'
 
@@ -8,22 +15,30 @@ const MainContent = () => {
 		<StyledContainer>
 			<StyledMain>
 				<section className='services'>
-					<StyledCard className='mainCard'>
-						<div className='card card1'>1</div>
-					</StyledCard>
+					<StyledMainCard>
+						{mainCard1.map((card) => {
+							return <Card key={card.id} {...card} />
+						})}
+					</StyledMainCard>
 
-					<StyledCard className='mainCard'>
+					<StyledMainCard className='mainCard'>
 						<StyledFlex>
-							<div className='card card2'>2</div>
-							<div className='card card3'>3</div>
+							{mainCard2.map((card) => {
+								return <Card key={card.id} {...card} />
+							})}
 						</StyledFlex>
-						<div className='card card4'>4</div>
-					</StyledCard>
+						<StyledCard className='card4'>
+							{mainCard3.map((card) => {
+								return <Card key={card.id} {...card} />
+							})}
+						</StyledCard>
+					</StyledMainCard>
 
-					<StyledCard className='mainCard mainCard3'>
-						<div className='card card5'>5</div>
-						<div className='card card6'>6</div>
-					</StyledCard>
+					<StyledMainCard className='mainCard mainCard3'>
+						{mainCard4.map((card) => {
+							return <Card key={card.id} {...card} />
+						})}
+					</StyledMainCard>
 				</section>
 			</StyledMain>
 		</StyledContainer>
