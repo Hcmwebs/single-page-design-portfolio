@@ -35,18 +35,18 @@ export const mainCard2 = [
 ]
 export const mainCard3 = [
 	{
-		id: 3,
+		id: 1,
 		className: 'card4',
-		title: 'Photography',
-		img: `${photography}`,
+		title: 'Illustrations',
+		img: `${illustrations}`,
 	},
 ]
 export const mainCard4 = [
 	{
 		id: 1,
 		className: 'card5',
-		title: 'Illustrations',
-		img: `${illustrations}`,
+		title: 'Photography',
+		img: `${photography}`
 	},
 	{
 		id: 2,

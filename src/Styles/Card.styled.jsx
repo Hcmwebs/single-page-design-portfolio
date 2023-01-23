@@ -4,10 +4,24 @@ const StyledCard = styled.div`
 	display: grid;
 	place-items: center;
 	border-radius: 20px;
+	padding: 1rem;
+	img {
+		justify-self: end;
+	}
+	h3 {
+		font-size:1.5rem;
+		line-height:30px;
+		color:var(--lightCream);
+		justify-self: start;
+	}
 	&.card1 {
 		width: 343px;
 		height: 364px;
-		background-color: aliceblue;
+		background-color: var(--galacticBlue);
+		img{
+			width:128px;
+			height: 192px;
+		}
 		@media (min-width: 768px) {
 			width: 333px;
 		}
@@ -18,7 +32,11 @@ const StyledCard = styled.div`
 	&.card2 {
 		width: 159px;
 		height: 182px;
-		background-color: salmon;
+		background-color:var(--summerYellow);
+		img{
+			width:64px;
+			height: 64px;
+		}
 		@media (min-width: 768px) {
 			width: 155px;
 		}
@@ -29,18 +47,26 @@ const StyledCard = styled.div`
 	&.card3 {
 		width: 159px;
 		height: 182px;
-		background-color: cyan;
+		background-color:var(--pink);
+		img{
+			width:64px;
+			height: 64px;
+		}
 		@media (min-width: 768px) {
 			width: 155px;
 		}
-		@media (min-width: 71440px) {
+		@media (min-width: 1440px) {
 			width: 164px;
 		}
 	}
 	&.card4 {
 		width: 343px;
 		height: 158px;
-		background-color: lightGreen;
+		background-color: var(--lightRed);
+		img{
+			width:128px;
+			height: 64px;
+		}
 		@media (min-width: 768px) {
 			width: 333px;
 		}
@@ -51,7 +77,11 @@ const StyledCard = styled.div`
 	&.card5 {
 		width: 343px;
 		height: 182px;
-		background-color: turquoise;
+		background-color: var(--cyan);
+		img{
+			width:160px;
+			height: 64px;
+		}
 		@media (min-width: 768px) {
 			width: 333px;
 		}
@@ -62,7 +92,11 @@ const StyledCard = styled.div`
 	&.card6 {
 		width: 343px;
 		height: 182px;
-		background-color: orange;
+		background-color: var(--darkPurple);
+		img{
+			width:128px;
+			height: 64px;
+		}
 		@media (min-width: 768px) {
 			width: 333px;
 		}

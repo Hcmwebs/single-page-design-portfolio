@@ -6,7 +6,7 @@ import { StyledMainCard, StyledCard, StyledFlex } from '../Styles'
 const MainCard = () => {
 	return (
 		<>
-			<StyledMainCard>
+			<StyledMainCard className='mainCard'>
 				{mainCard1.map((card) => {
 					return <Card key={card.id} {...card} />
 				})}
@@ -18,11 +18,10 @@ const MainCard = () => {
 						return <Card key={card.id} {...card} />
 					})}
 				</StyledFlex>
-				<StyledCard className='card4'>
-					{mainCard3.map((card) => {
-						return <Card key={card.id} {...card} />
-					})}
-				</StyledCard>
+
+				{mainCard3.map((card) => {
+					return <Card key={card.id} {...card} />
+				})}
 			</StyledMainCard>
 
 			<StyledMainCard className='mainCard mainCard3'>
