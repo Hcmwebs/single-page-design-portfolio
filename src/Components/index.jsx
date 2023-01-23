@@ -5,6 +5,20 @@ import Hero from './Hero'
 import Header from './Header'
 import MainContent from './MainContent'
 import MainCard from './MainCard'
+import ProfileCard from './ProfileCard'
+import Profile from './Profile'
 import Card from './Card'
 import Footer from './Footer'
-export { Header, Nav, Logo, Button, Hero, MainContent, MainCard, Card, Footer }
+export {
+	Header,
+	Nav,
+	Logo,
+	Button,
+	Hero,
+	MainContent,
+	MainCard,
+	Card,
+	ProfileCard,
+	Profile,
+	Footer,
+}

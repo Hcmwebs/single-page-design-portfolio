@@ -9,17 +9,17 @@ const StyledCard = styled.div`
 		justify-self: end;
 	}
 	h3 {
-		font-size:1.5rem;
-		line-height:30px;
-		color:var(--lightCream);
+		font-size: 1.5rem;
+		line-height: 30px;
+		color: var(--lightCream);
 		justify-self: start;
 	}
 	&.card1 {
 		width: 343px;
 		height: 364px;
 		background-color: var(--galacticBlue);
-		img{
-			width:128px;
+		img {
+			width: 128px;
 			height: 192px;
 		}
 		@media (min-width: 768px) {
@@ -32,9 +32,9 @@ const StyledCard = styled.div`
 	&.card2 {
 		width: 159px;
 		height: 182px;
-		background-color:var(--summerYellow);
-		img{
-			width:64px;
+		background-color: var(--summerYellow);
+		img {
+			width: 64px;
 			height: 64px;
 		}
 		@media (min-width: 768px) {
@@ -47,9 +47,9 @@ const StyledCard = styled.div`
 	&.card3 {
 		width: 159px;
 		height: 182px;
-		background-color:var(--pink);
-		img{
-			width:64px;
+		background-color: var(--pink);
+		img {
+			width: 64px;
 			height: 64px;
 		}
 		@media (min-width: 768px) {
@@ -63,8 +63,8 @@ const StyledCard = styled.div`
 		width: 343px;
 		height: 158px;
 		background-color: var(--lightRed);
-		img{
-			width:128px;
+		img {
+			width: 128px;
 			height: 64px;
 		}
 		@media (min-width: 768px) {
@@ -78,8 +78,8 @@ const StyledCard = styled.div`
 		width: 343px;
 		height: 182px;
 		background-color: var(--cyan);
-		img{
-			width:160px;
+		img {
+			width: 160px;
 			height: 64px;
 		}
 		@media (min-width: 768px) {
@@ -93,8 +93,8 @@ const StyledCard = styled.div`
 		width: 343px;
 		height: 182px;
 		background-color: var(--darkPurple);
-		img{
-			width:128px;
+		img {
+			width: 128px;
 			height: 64px;
 		}
 		@media (min-width: 768px) {

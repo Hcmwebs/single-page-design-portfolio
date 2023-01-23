@@ -1,16 +1,19 @@
 import React from 'react'
-import { MainCard } from './index'
+import { MainCard,ProfileCard } from './index'
 
-import { StyledContainer, StyledMain } from '../Styles'
+import { StyledContainer, StyledMainContent } from '../Styles'
 
 const MainContent = () => {
 	return (
 		<StyledContainer>
-			<StyledMain>
+			<StyledMainContent>
 				<section className='services'>
 					<MainCard />
 				</section>
-			</StyledMain>
+				<section className="profile">
+					<ProfileCard />
+				</section>
+			</StyledMainContent>
 		</StyledContainer>
 	)
 }

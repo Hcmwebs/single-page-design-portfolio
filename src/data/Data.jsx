@@ -46,7 +46,7 @@ export const mainCard4 = [
 		id: 1,
 		className: 'card5',
 		title: 'Photography',
-		img: `${photography}`
+		img: `${photography}`,
 	},
 	{
 		id: 2,
@@ -59,9 +59,11 @@ export const mainCard4 = [
 export const profile = [
 	{
 		id: 1,
+		name: 'Amy',
 		title: 'I’m Amy, and I’d love to work on your next project',
 		info: 'I love working with others to create beautiful design solutions. I’ve designed everything from brand illustrations to complete mobile apps. I’m also handy with a camera!',
 		img: `${profileImg}`,
+		className: 'profile',
 	},
 ]
 

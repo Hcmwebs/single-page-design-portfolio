@@ -3,7 +3,7 @@ import styled from 'styled-components'
 const StyledMain = styled.main`
 	width: 100%;
 	display: grid;
-	gap: 2rem;
+	gap: 0.625rem;
 	place-items: center;
 
 	section {
