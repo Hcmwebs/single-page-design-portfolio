@@ -15,7 +15,7 @@ const MainContent = () => {
 		<StyledContainer>
 			<StyledMain>
 				<section className='services'>
-					<StyledMainCard>
+					<StyledMainCard className='mainCard'>
 						{mainCard1.map((card) => {
 							return <Card key={card.id} {...card} />
 						})}
