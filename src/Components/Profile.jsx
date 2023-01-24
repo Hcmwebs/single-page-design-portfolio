@@ -1,13 +1,16 @@
 import React from 'react'
-import { StyledProfileCard } from '../Styles'
+import { StyledProfileCard,StyledButton } from '../Styles'
+import {ButtonSec} from './index'
 
-const Profile = ({ id, name, title, img, info,className }) => {
+
+const Profile = ({ id, name, title, img, info, className }) => {
 	return (
 		<StyledProfileCard className={className}>
 			<img src={img} alt={name} />
 			<div className='card-body'>
-				<p>{title}</p>
+				<h3>{title}</h3>
 				<p>{info}</p>
+				<ButtonSec/>
 			</div>
 		</StyledProfileCard>
 	)

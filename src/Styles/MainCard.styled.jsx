@@ -4,7 +4,6 @@ const StyledMainCard = styled.div`
 	&.mainCard {
 		min-height: 364px;
 		margin: 0 auto;
-		outline: 2px solid lightgreen;
 		border-radius: 20px;
 		display: flex;
 		place-items: center;

@@ -3,7 +3,6 @@ import styled from 'styled-components'
 const StyledMain = styled.main`
 	width: 100%;
 	display: grid;
-	gap: 0.625rem;
 	place-items: center;
 
 	section {
@@ -15,11 +14,8 @@ const StyledMain = styled.main`
 		outline: 2px solid lightcoral;
 
 		&.services {
-			display: grid;
-			place-items: center;
-			grid-template-columns:repeat(auto-fill, minmax(330px, 1fr));
+			grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
 			gap: 1.5rem;
-
 		}
 	}
 `

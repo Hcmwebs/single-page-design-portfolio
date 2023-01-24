@@ -1,16 +1,14 @@
 import React from 'react'
-import { StyledContainer, StyledNav } from '../Styles'
-import { Logo, Button } from './index'
-import styled from 'styled-components'
+import { StyledNav} from '../Styles'
+import { Logo, ButtonPrim } from './index'
 
 const Nav = () => {
 	return (
 		<StyledNav>
 			<Logo />
-			<Button />
+			<ButtonPrim />
 		</StyledNav>
 	)
 }
-
 
 export default Nav
