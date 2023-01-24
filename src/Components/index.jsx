@@ -1,6 +1,7 @@
 import Nav from './Nav'
 import Logo from './Logo'
-import Button from './Button'
+import ButtonPrim from './ButtonPrim';
+import ButtonSec from './ButtonSec';
 import Hero from './Hero'
 import Header from './Header'
 import MainContent from './MainContent'
@@ -13,7 +14,8 @@ export {
 	Header,
 	Nav,
 	Logo,
-	Button,
+	ButtonPrim,
+	ButtonSec,
 	Hero,
 	MainContent,
 	MainCard,
