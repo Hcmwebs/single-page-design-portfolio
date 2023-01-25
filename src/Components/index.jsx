@@ -9,6 +9,7 @@ import MainCard from './MainCard'
 import ProfileCard from './ProfileCard'
 import Profile from './Profile'
 import Card from './Card'
+import Title from './Title'
 import Work from './Work'
 import Footer from './Footer'
 export {
@@ -23,6 +24,7 @@ export {
 	Card,
 	ProfileCard,
 	Profile,
+	Title,
 	Work,
 	Footer,
 }

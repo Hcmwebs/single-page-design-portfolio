@@ -4,10 +4,10 @@ const StyledWork = styled.div`
 	width: 100%;
 	display: grid;
 	place-items: center;
-	gap: 1.5rem;
 	overflow: hidden;
 
 	.slider {
+		width: 100%;
 		display: flex;
 		justify-content: center;
 		align-items: center;

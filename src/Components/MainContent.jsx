@@ -1,7 +1,7 @@
 import React from 'react'
 import { MainCard, ProfileCard, Work } from './index'
 
-import { StyledContainer, StyledMainContent, StyledTitle } from '../Styles'
+import { StyledContainer, StyledMainContent } from '../Styles'
 
 const MainContent = () => {
 	return (
@@ -17,7 +17,7 @@ const MainContent = () => {
 				</section>
 			</StyledContainer>
 			<StyledContainer fullWidth>
-				<section>
+				<section className='work'>
 					<Work />
 				</section>
 			</StyledContainer>
