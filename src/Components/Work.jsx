@@ -21,6 +21,9 @@ const Work = () => {
 					)
 				})}
 			</div>
+		<div className='buttons'>
+			buttons go here!
+		</div>
 		</StyledWork>
 		</>
 	)

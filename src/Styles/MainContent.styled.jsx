@@ -21,8 +21,10 @@ const StyledMain = styled.main`
 			width: min(100%, var(--maxWidth));
 			min-height: 400px;
 			padding-inline: 1rem;
+			gap: 2rem;
 			overflow: hidden;
 			@media (min-width: 768px) {
+				gap: 3.5rem;
 				padding-inline: 2.5rem;
 			}
 			@media (min-width: 1440px) {
