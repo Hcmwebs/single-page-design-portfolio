@@ -22,8 +22,6 @@ const MainContent = () => {
 						<h2>My Work</h2>
 						<div className='underline'></div>
 					</StyledTitle>
-					<div className='title'>
-					</div>
 					<Work />
 				</section>
 			</StyledContainer>
