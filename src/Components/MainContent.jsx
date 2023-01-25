@@ -1,6 +1,5 @@
 import React from 'react'
-import { MainCard, ProfileCard, Work } from './index'
-
+import { MainCard, ProfileCard, Work, Title } from './index'
 import { StyledContainer, StyledMainContent } from '../Styles'
 
 const MainContent = () => {
@@ -18,6 +17,7 @@ const MainContent = () => {
 			</StyledContainer>
 			<StyledContainer fullWidth>
 				<section className='work'>
+					<Title />
 					<Work />
 				</section>
 			</StyledContainer>

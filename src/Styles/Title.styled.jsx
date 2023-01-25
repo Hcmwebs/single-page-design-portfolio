@@ -3,6 +3,7 @@ import styled from 'styled-components'
 const StyledTitle = styled.div`
 	width: max-content;
 	position: relative;
+	top: -10%;
 	display: grid;
 	place-items: center;
 	h2 {
