@@ -12,7 +12,7 @@ const StyledTitle = styled.div`
 		content: '';
 		width: 60%;
 		height: 0.2rem;
-		background-color: var(--galacticBlue);
+		background-color: var(--mediumBrown);
 		position: absolute;
 		bottom: -0.5rem;
 		left: 50%;

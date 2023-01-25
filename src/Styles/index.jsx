@@ -10,6 +10,7 @@ import StyledMainContent from './MainContent.styled'
 import StyledMainCard from './MainCard.styled'
 import StyledCard from './Card.styled'
 import StyledProfileCard from './ProfileCard.styled'
+import StyledWork from './Work.styled'
 import StyledTitle from './Title.styled'
 
 export {
@@ -25,5 +26,6 @@ export {
 	StyledMainCard,
 	StyledCard,
 	StyledProfileCard,
+	StyledWork,
 	StyledTitle,
 }

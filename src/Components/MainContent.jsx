@@ -18,10 +18,6 @@ const MainContent = () => {
 			</StyledContainer>
 			<StyledContainer fullWidth>
 				<section>
-					<StyledTitle>
-						<h2>My Work</h2>
-						<div className='underline'></div>
-					</StyledTitle>
 					<Work />
 				</section>
 			</StyledContainer>
