@@ -30,22 +30,16 @@ const StyledWork = styled.div`
 			opacity: 0;
 			&.activeSlide {
 				opacity: 1;
-				transform: translateX(-50%) scale(1.02);
+				transform: translateX(-50%) scale(1.05);
 				box-shadow: 0 4px 25px 2px rgba(0, 0, 0, 0.4);
 			}
 			&.nextSlide {
 				opacity: 1;
 				transform: translateX(60%);
-				@media (min-width: 1440px) {
-					transform: translateX(300%);
-				}
 			}
 			&.prevSlide {
 				opacity: 1;
 				transform: translateX(-160%);
-				@media (min-width: 1440px) {
-					transform: translateX(-300%);
-				}
 			}
 
 			@media (min-width: 768px) {
@@ -57,9 +51,23 @@ const StyledWork = styled.div`
 	.buttons {
 		padding-block: 1.5rem;
 		position: absolute;
-		bottom: 0;
+		bottom: -2%;
 		display: flex;
 		gap: 1rem;
+
+		button {
+			outline: none;
+			border: none;
+			border-radius: 50%;
+			padding: 1rem;
+			background-color: var(--black);
+			cursor: pointer;
+			transition: var(--transition-1);
+			&:hover {
+				background-color: var(--galacticBlue);
+				transform: scale(0.95);
+			}
+		}
 	}
 `
 

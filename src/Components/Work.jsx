@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { StyledWork } from '../Styles'
 import { work } from '../data/Data'
+import { PrevBtn,NextBtn } from './index'
 
 const Work = () => {
 	const [slides, setSlides] = useState(work)
@@ -34,7 +35,7 @@ const Work = () => {
 				}
 				return index
 			})
-		}, 15000)
+		}, 10000)
 		return () => {
 			clearInterval(slider)
 		}
@@ -64,10 +65,10 @@ const Work = () => {
 			</div>
 			<div className='buttons'>
 				<button type='button' onClick={prevSlide}>
-					Prev
+					<PrevBtn />
 				</button>
 				<button type='button' onClick={nextSlide}>
-					next
+					<NextBtn />
 				</button>
 			</div>
 		</StyledWork>
