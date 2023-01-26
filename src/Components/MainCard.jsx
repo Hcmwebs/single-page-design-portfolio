@@ -1,7 +1,7 @@
 import React from 'react'
 import { Card } from './index'
 import { mainCard1, mainCard2, mainCard3, mainCard4 } from '../data/Data'
-import { StyledMainCard, StyledCard, StyledFlex } from '../Styles'
+import { StyledMainCard, StyledFlex } from '../Styles'
 
 const MainCard = () => {
 	return (
