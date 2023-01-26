@@ -5,14 +5,13 @@ const StyledProfileCard = styled.div`
 		width: 100%;
 		min-height: 100%;
 		display: flex;
-		justify-content: center;
+		justify-content: space-between;
 		align-items: center;
 		flex-direction: column;
 		gap: 2.5rem;
 
 		@media (min-width: 768px) {
 			flex-direction: row;
-			gap: 1.5rem;
 		}
 
 		img {
