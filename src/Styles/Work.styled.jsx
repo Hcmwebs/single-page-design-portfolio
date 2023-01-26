@@ -11,8 +11,6 @@ const StyledWork = styled.div`
 		justify-content: center;
 		align-items: center;
 		gap: 1rem;
-		outline: 2px solid turquoise;
-
 		@media (min-width: 768px) {
 			gap: 2rem;
 		}

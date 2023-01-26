@@ -11,7 +11,6 @@ const StyledMain = styled.main`
 		min-height: 50vh;
 		display: grid;
 		place-items: center;
-		outline: 2px solid lightcoral;
 
 		&.services {
 			grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
