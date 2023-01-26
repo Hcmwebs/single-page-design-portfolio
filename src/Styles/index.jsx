@@ -12,6 +12,7 @@ import StyledCard from './Card.styled'
 import StyledProfileCard from './ProfileCard.styled'
 import StyledWork from './Work.styled'
 import StyledTitle from './Title.styled'
+import StyledFooter from './Footer.styled'
 
 export {
 	GlobalStyles,
@@ -28,4 +29,5 @@ export {
 	StyledProfileCard,
 	StyledWork,
 	StyledTitle,
+	StyledFooter,
 }
