@@ -16,7 +16,7 @@ const StyledWork = styled.div`
 		}
 		.slide {
 			width: 270px;
-			height: 180px;git 
+			height: 180px;
 			border-radius: 10px;
 			overflow: hidden;
 			position: absolute;
