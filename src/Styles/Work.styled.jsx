@@ -51,7 +51,7 @@ const StyledWork = styled.div`
 	.buttons {
 		padding-block: 1.5rem;
 		position: absolute;
-		bottom: -2%;
+		bottom: 3%;
 		display: flex;
 		gap: 1rem;
 

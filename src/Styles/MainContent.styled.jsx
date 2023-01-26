@@ -19,12 +19,12 @@ const StyledMain = styled.main`
 		}
 		&.work {
 			width: min(100%, var(--maxWidth));
-			height: 600px;
 			padding-inline: 1rem;
 			gap: 2rem;
 			overflow: hidden;
 			position: relative;
 			@media (min-width: 768px) {
+				height: 800px;
 				gap: 3.5rem;
 				padding-inline: 2.5rem;
 			}
