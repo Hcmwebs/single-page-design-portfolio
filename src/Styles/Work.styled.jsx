@@ -32,11 +32,11 @@ const StyledWork = styled.div`
 				box-shadow: 0 4px 25px 2px rgba(0, 0, 0, 0.4);
 			}
 			&.nextSlide {
-				opacity: 1;
+				opacity: 0.2;
 				transform: translateX(60%);
 			}
 			&.prevSlide {
-				opacity: 1;
+				opacity: 0.2;
 				transform: translateX(-160%);
 			}
 
