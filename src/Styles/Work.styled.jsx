@@ -16,8 +16,7 @@ const StyledWork = styled.div`
 		}
 		.slide {
 			width: 270px;
-			height: 180px;
-			box-shadow: 0 2px 25px 2px rgba(0, 0, 0, 0.1);
+			height: 180px;git 
 			border-radius: 10px;
 			overflow: hidden;
 			position: absolute;
@@ -28,16 +27,16 @@ const StyledWork = styled.div`
 			opacity: 0;
 			&.activeSlide {
 				opacity: 1;
-				transform: translateX(-50%) scale(1.05);
+				transform: translateX(-50%) scale(1.1);
 				box-shadow: 0 4px 25px 2px rgba(0, 0, 0, 0.4);
 			}
 			&.nextSlide {
 				opacity: 0.2;
-				transform: translateX(60%);
+				transform: translateX(60%) scale(0.9);
 			}
 			&.prevSlide {
 				opacity: 0.2;
-				transform: translateX(-160%);
+				transform: translateX(-160%) scale(0.9);
 			}
 
 			@media (min-width: 768px) {
