@@ -1,12 +1,11 @@
 import React from 'react'
-import logoImg from '../data/Data'
 import { StyledLogo } from '../Styles'
 
 const Logo = () => {
 	return (
 		<>
 			<a href='#'>
-				<StyledLogo src={logoImg} alt='logo' />
+				<StyledLogo src='logo.svg' alt='logo' />
 			</a>
 		</>
 	)
