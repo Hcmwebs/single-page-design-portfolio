@@ -5,7 +5,7 @@ const Logo = () => {
 	return (
 		<>
 			<a href='#'>
-				<StyledLogo src='/Assets/logo.svg' alt='logo' />
+				<StyledLogo src='/logo.svg' alt='logo' />
 			</a>
 		</>
 	)
