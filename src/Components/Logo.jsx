@@ -1,12 +1,12 @@
 import React from 'react'
-import logo from '../Assets/logo.svg'
+import logoImg from '../data/Data'
 import { StyledLogo } from '../Styles'
 
 const Logo = () => {
 	return (
 		<>
 			<a href='#'>
-				<StyledLogo src={logo} alt='logo' />
+				<StyledLogo src={logoImg} alt='logo' />
 			</a>
 		</>
 	)

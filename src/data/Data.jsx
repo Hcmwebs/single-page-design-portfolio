@@ -1,15 +1,16 @@
-import graphicDesign from '../assets/pattern-graphic-design.svg'
-import apps from '../assets/pattern-apps.svg'
-import illustrations from '../assets/pattern-illustrations.svg'
-import motionGraphics from '../assets/pattern-motion-graphics.svg'
-import photography from '../assets/pattern-photography.svg'
-import uiUx from '../assets/pattern-ui-ux.svg'
-import profileImg from '../assets/image-amy.webp'
-import imageSlide1 from '../assets/image-slide-1.jpg'
-import imageSlide2 from '../assets/image-slide-2.jpg'
-import imageSlide3 from '../assets/image-slide-3.jpg'
-import imageSlide4 from '../assets/image-slide-4.jpg'
-import imageSlide5 from '../assets/image-slide-5.jpg'
+import graphicDesign from '../Assets/pattern-graphic-design.svg'
+import apps from '../Assets/pattern-apps.svg'
+import illustrations from '../Assets/pattern-illustrations.svg'
+import motionGraphics from '../Assets/pattern-motion-graphics.svg'
+import photography from '../Assets/pattern-photography.svg'
+import uiUx from '../Assets/pattern-ui-ux.svg'
+import logo from '../Assets/logo.svg'
+import profileImg from '../Assets/image-amy.webp'
+import imageSlide1 from '../Assets/image-slide-1.jpg'
+import imageSlide2 from '../Assets/image-slide-2.jpg'
+import imageSlide3 from '../Assets/image-slide-3.jpg'
+import imageSlide4 from '../Assets/image-slide-4.jpg'
+import imageSlide5 from '../Assets/image-slide-5.jpg'
 
 export const mainCard1 = [
 	{
@@ -94,3 +95,7 @@ export const work = [
 		img: `${imageSlide5}`,
 	},
 ]
+
+export const logoImg = {
+	img: `${logo}`,
+}

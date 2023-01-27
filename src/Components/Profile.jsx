@@ -1,5 +1,5 @@
 import React from 'react'
-import { StyledProfileCard,StyledButton } from '../Styles'
+import { StyledProfileCard} from '../Styles'
 import {ButtonSec} from './index'
 
 
