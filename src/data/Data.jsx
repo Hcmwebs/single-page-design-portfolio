@@ -1,22 +1,9 @@
-import graphicDesign from '../Assets/pattern-graphic-design.svg'
-import apps from '../Assets/pattern-apps.svg'
-import illustrations from '../Assets/pattern-illustrations.svg'
-import motionGraphics from '../Assets/pattern-motion-graphics.svg'
-import photography from '../Assets/pattern-photography.svg'
-import uiUx from '../Assets/pattern-ui-ux.svg'
-import profileImg from '../Assets/image-amy.webp'
-import imageSlide1 from '../Assets/image-slide-1.jpg'
-import imageSlide2 from '../Assets/image-slide-2.jpg'
-import imageSlide3 from '../Assets/image-slide-3.jpg'
-import imageSlide4 from '../Assets/image-slide-4.jpg'
-import imageSlide5 from '../Assets/image-slide-5.jpg'
-
 export const mainCard1 = [
 	{
 		id: 1,
 		className: 'card1',
 		title: 'Graphic designer',
-		img: `${graphicDesign}`,
+		img: '/Assets/pattern-graphic-design.svg',
 	},
 ]
 export const mainCard2 = [
@@ -24,13 +11,13 @@ export const mainCard2 = [
 		id: 1,
 		className: 'card2',
 		title: 'UI/UX',
-		img: `${uiUx}`,
+		img: '/Assets/pattern-ui-ux.svg',
 	},
 	{
 		id: 2,
 		className: 'card3',
 		title: 'Apps',
-		img: `${apps}`,
+		img: '/Assets/pattern-apps.svg',
 	},
 ]
 export const mainCard3 = [
@@ -38,7 +25,7 @@ export const mainCard3 = [
 		id: 1,
 		className: 'card4',
 		title: 'Illustrations',
-		img: `${illustrations}`,
+		img: '/Assets/pattern-illustrations.svg',
 	},
 ]
 export const mainCard4 = [
@@ -46,13 +33,13 @@ export const mainCard4 = [
 		id: 1,
 		className: 'card5',
 		title: 'Photography',
-		img: `${photography}`,
+		img: '/Assets/pattern-photography.svg',
 	},
 	{
 		id: 2,
 		className: 'card6',
 		title: 'Motion Graphics',
-		img: `${motionGraphics}`,
+		img: '/Assets/pattern-motion-graphics.svg',
 	},
 ]
 
@@ -62,7 +49,7 @@ export const profile = [
 		name: 'Amy',
 		title: 'I’m Amy, and I’d love to work on your next project',
 		info: 'I love working with others to create beautiful design solutions. I’ve designed everything from brand illustrations to complete mobile apps. I’m also handy with a camera!',
-		img: `${profileImg}`,
+		img: '/Assets/image-amy.webp',
 		className: 'profileDetails',
 	},
 ]
@@ -71,26 +58,26 @@ export const work = [
 	{
 		id: 1,
 		name: 'image slide 1',
-		img: `${imageSlide1}`,
+		img: '/Assets/image-slide-1.jpg',
 	},
 	{
 		id: 2,
 		name: 'image slide 2',
-		img: `${imageSlide2}`,
+		img: '/Assets/image-slide-2.jpg',
 	},
 	{
 		id: 3,
 		name: 'image slide 3',
-		img: `${imageSlide3}`,
+		img: '/Assets/image-slide-3.jpg',
 	},
 	{
 		id: 4,
 		name: 'image slide 4',
-		img: `${imageSlide4}`,
+		img: '/Assets/image-slide-4.jpg',
 	},
 	{
 		id: 5,
 		name: 'image slide 5',
-		img: `${imageSlide5}`,
+		img: '/Assets/image-slide-5.jpg',
 	},
 ]
