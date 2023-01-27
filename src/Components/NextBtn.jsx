@@ -1,5 +1,5 @@
 import React from 'react'
-import nextIcon from '../assets/icon-arrow-right.svg'
+import nextIcon from '../Assets/icon-arrow-right.svg'
 
 const NextBtn = () => {
 	return (

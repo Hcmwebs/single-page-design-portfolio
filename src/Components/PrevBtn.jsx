@@ -1,5 +1,5 @@
 import React from 'react'
-import prevIcon from '../assets/icon-arrow-left.svg'
+import prevIcon from '../Assets/icon-arrow-left.svg'
 
 const PrevBtn = () => {
 	return (
