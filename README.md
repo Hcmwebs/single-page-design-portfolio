@@ -16,7 +16,6 @@ This is a solution to the [Single-page design portfolio challenge on Frontend Me
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-
 ## Overview
 
 ### The challenge
@@ -33,14 +32,6 @@ Users should be able to:
 ![Tablet](./public/screenshots/tablet.png)
 ![Desktop](./public/screenshots/desktop.png)
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it.
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
-
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
@@ -56,14 +47,12 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - CSS Grid
 - Mobile-first workflow
 - [React](https://reactjs.org/) - JS library
-- [Framer-motion](https://www.framer.com/motion/) - Smooth transitions and animations.
 - [Styled Components](https://styled-components.com/) - For styles
 - [ViteJs](https://styled-components.com/) - A very fast dev tool to launch light project.
 
 ### What I learned
 
 - Got more acquitted with styled-components.
-- Animation and transitions with Framer motion.
 
 ### Continued development
 
@@ -74,7 +63,6 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - [Stack Overflow](https://stackoverflow.com/) - Every developer's friend.
 - [Google](https://www.google.com) - This is always a life a saver.
 - [Styled Components](https://styled-components.com/) - Game changer in styling react components.
-- [Frame-motion](https://www.framer.com/motion/) - for smooth transitions animations.
 - [Vite](https://vitejs.dev/) - Is literally the next generation frontend tooling.
 
 ## Author
