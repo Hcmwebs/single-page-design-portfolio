@@ -4,7 +4,6 @@ import illustrations from '../Assets/pattern-illustrations.svg'
 import motionGraphics from '../Assets/pattern-motion-graphics.svg'
 import photography from '../Assets/pattern-photography.svg'
 import uiUx from '../Assets/pattern-ui-ux.svg'
-import logo from '../Assets/logo.svg'
 import profileImg from '../Assets/image-amy.webp'
 import imageSlide1 from '../Assets/image-slide-1.jpg'
 import imageSlide2 from '../Assets/image-slide-2.jpg'
@@ -95,7 +94,3 @@ export const work = [
 		img: `${imageSlide5}`,
 	},
 ]
-
-export const logoImg = {
-	img: `${logo}`,
-}
