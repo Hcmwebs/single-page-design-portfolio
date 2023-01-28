@@ -8,7 +8,7 @@ const StyledCard = styled.div`
 	img {
 		justify-self: end;
 	}
-	h3 {
+	h2 {
 		font-size: 1.5rem;
 		line-height: 30px;
 		color: var(--lightCream);

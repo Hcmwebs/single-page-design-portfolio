@@ -5,7 +5,7 @@ const Card = ({ id, img, className, title }) => {
 	return (
 		<StyledCard className ={className}>
 			<img src={img} alt={title} />
-			<h3>{title}</h3>
+			<h2>{title}</h2>
 		</StyledCard>
 	)
 }
