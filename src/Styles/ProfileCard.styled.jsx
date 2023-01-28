@@ -40,7 +40,7 @@ const StyledProfileCard = styled.div`
 				gap: 2rem;
 			}
 
-			h3 {
+			h2 {
 				font-size: 1.625rem;
 				line-height: 2.0625rem;
 				color: var(--black);
