@@ -34,7 +34,7 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://www.frontendmentor.io/solutions/vite-react-and-styled-components-80QRCjR1yk)
+- [Solution URL](https://github.com/Hcmwebs/single-page-design-portfolio)
 - [Live site URL](https://single-page-design-portfolio-inky.vercel.app/)
 
 ## My process
