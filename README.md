@@ -34,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [Solution URL](https://www.frontendmentor.io/solutions/vite-react-and-styled-components-80QRCjR1yk)
+- [Live site URL](https://single-page-design-portfolio-inky.vercel.app/)
 
 ## My process
 
